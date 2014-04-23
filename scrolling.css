@@ -1,0 +1,57 @@
+*{
+	margin:0;
+	padding:0
+}
+.scroll-area{
+	width:940px;
+	margin:0 auto;
+}
+.arrow-down-1,.arrow-down-2,.arrow-down-3{
+	width:130px;
+	height:27px;
+	cursor: pointer;
+	margin:0 auto;
+	position: absolute;
+	left:42.5%;
+	display:block
+}
+#scroll-1,#scroll-2,#scroll-3,#scroll-4{
+	width:940px;
+	background-position: no-repeat!important;
+	position:relative;
+}
+/**/
+#scroll-1{
+	background:url(./image/scrolling-1.jpg);
+	height:733px;
+}
+#scroll-1 .glasses{
+	background:url(./image/glasses.png) no-repeat;
+	width:908px;
+	height: 262px;
+	position: absolute;
+	top:120px;
+	left:2%
+}
+#scroll-1 .scr-txt-1{
+	background:url(./image/scrolling-txt-1.png) no-repeat center 30px;
+	width:264px;
+	height:45px;
+	margin:0 auto;
+	padding-top:30px
+}
+.arrow-down-1{
+	background:url(./image/arrow-down-1.png) no-repeat;
+	top:80px;
+	animation:arrow-down-1 5s ease-out infinite;
+	-webkit-animation:arrow-down-1 5s ease-out infinite;
+}
+	@keyframes arrow-down-1{
+		0%,20%, 40% ,60% ,80% ,100% {top:80px;}
+		10%,30% ,50% ,70% ,90%{top:90px;}
+	}
+	@-webkit-keyframes arrow-down-1{
+		0%,20%, 40% ,60% ,80% ,100% {top:80px;}
+		10%,30% ,50% ,70% ,90%{top:90px;}
+	}
+/**/
